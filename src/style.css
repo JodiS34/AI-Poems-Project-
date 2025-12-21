@@ -1,4 +1,9 @@
 body {
-  background: aquamarine;
-  text-align: center;
+  background-color: #f9f7fe;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272844;
 }
