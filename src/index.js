@@ -1,7 +1,8 @@
 function generatePoem(event) {
   event.preventDefault();
 
-  alert("Generating poem");
+  let poemElement = document.querySelector("peom");
+  poemElement.innerHTML = "La tombe dit à la rose";
 }
 
 let poemFormElement = document.querySelector("#peom-generator-form");
