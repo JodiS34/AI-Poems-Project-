@@ -20,13 +20,15 @@ h1 {
   line-height: 1.5;
   color: #272844;
 }
-form {
-  padding: 30px;
+.form-container {
   background-color: white;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 30px;
+}
+form {
+  display: flex;
 }
 .instructions {
   padding: 30px;
